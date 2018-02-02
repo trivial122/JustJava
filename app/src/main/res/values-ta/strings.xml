@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="app_name">ஜஸ்ட் ஜாவா</string>
+    <string name="name" translatable="false">பெயர்</string>
+    <string name="whipped_cream">கிரீம்</string>
+    <string name="chocolate">சாக்லேட்</string>
+    <string name="quantity">எண்ணிக்கை</string>
+    <string name="order">ஆர்டர்</string>
+    <string name="order_summary_email_subject">ஜஸ்ட் ஜாவா ஆர்டர் <xliff:g id="name" example="Amy">%s</xliff:g></string>
+    <string name="thank_you">"நன்றி "</string>
+    <string name="total">மொத்தம்:</string>
+    <string name="add_whipped_cream">கிரீம் சேர்க்க வேண்டுமா?</string>
+    <string name="not_more_than_100">நீங்கள் 100 க்கும் மேற்பட்ட காபியை ஆர்டர் செய்ய முடியாது</string>
+    <string name="not_less_than_1">நீங்கள் 1 காபிக்கும் குறைவாக ஆர்டர் செய்ய முடியாது</string>
+    <string name="name_1">பெயர்:</string>
+    <string name="add_chocolate">சாக்லேட் சேர்க்க வேண்டுமா?</string>
+    <string name="toppings">டாப்பிங்ஸ்</string>
+</resources>

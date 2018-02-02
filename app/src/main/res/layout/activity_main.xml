@@ -1,0 +1,131 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <EditText
+            android:id="@+id/name_field"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:backgroundTint="#a67958"
+            android:hint="@string/name"
+            android:inputType="textCapWords"
+            android:selectAllOnFocus="false"
+            android:singleLine="false"
+            android:textColor="#ffffff"
+            android:textColorHint="#ffffff"
+            android:textSize="26sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:fontFamily="monospace"
+            android:text="@string/toppings"
+            android:textAllCaps="true"
+            android:textColor="#ffffff"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+
+        <CheckBox
+            android:id="@+id/whipped_cream_checkbox"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="14dp"
+            android:buttonTint="#ffffff"
+            android:paddingLeft="24dp"
+            android:text="@string/whipped_cream"
+            android:textAppearance="?android:textAppearanceMedium"
+            android:textColor="#ffffff"
+            android:textSize="16sp" />
+
+        <CheckBox
+            android:id="@+id/chocolate_checkbox"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:buttonTint="#ffffff"
+            android:paddingLeft="24dp"
+            android:text="@string/chocolate"
+            android:textAppearance="?android:textAppearanceMedium"
+            android:textColor="#ffffff"
+            android:textSize="16sp" />
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:fontFamily="monospace"
+            android:text="@string/quantity"
+            android:textAllCaps="true"
+            android:textColor="#ffffff"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/minus"
+                android:layout_width="48dp"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="8dp"
+                android:layout_marginTop="20dp"
+                android:backgroundTint="#a67958"
+                android:fontFamily="monospace"
+                android:onClick="decrement"
+                android:text="-"
+                android:textColor="#ffffff"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/quantity_text_view"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:text="1"
+                android:textColor="#ffffff"
+                android:textSize="24sp" />
+
+            <Button
+                android:id="@+id/plus"
+                android:layout_width="48dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="8dp"
+                android:layout_marginTop="20dp"
+                android:backgroundTint="#a67958"
+                android:fontFamily="monospace"
+                android:onClick="increment"
+                android:text="+"
+                android:textColor="#ffffff"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:backgroundTint="#a67958"
+            android:fontFamily="monospace"
+            android:onClick="submitOrder"
+            android:paddingLeft="33dp"
+            android:paddingRight="33dp"
+            android:text="@string/order"
+            android:textColor="#ffffff"
+            android:textSize="20sp" />
+
+    </LinearLayout>
+</ScrollView>
